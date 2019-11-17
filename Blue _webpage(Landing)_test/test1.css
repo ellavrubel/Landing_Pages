@@ -1,0 +1,181 @@
+/* Specification*/
+body{
+    font-family: 'Mukta', sans-serif;
+    color: darkblue;
+}
+ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/*First screen*/
+
+.header{
+    background: url("img/blue_wight.jpg") no-repeat center right;
+    height: 520px;
+    text-align: center;
+}
+li.header__main__menu{
+    margin-right: 15px;
+}
+
+ul.header__main__menu {
+    margin-top: 70px;
+    }
+li.header__main__menu a{
+
+    font-size: 2em;
+    font-weight: 500;
+}
+div.header__text{
+    margin: 0 auto;
+}
+h1.header__text{
+    margin: 20px auto;
+    color: orange;
+
+}
+p.header__text{
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+
+}
+
+/*Second screen*/
+.card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card h5{
+    text-align: center;
+    color: orangered;
+}
+.card p{
+    text-align: center;
+
+}
+.card a{
+    display: block;
+}
+.card a:hover{
+    color: orange;
+}
+
+/*Third screen */
+.form{
+    background-color: rgba(23,45,67,.2);
+
+}
+.form__title{
+    margin: 100px auto 50px;
+    font-size: 2.5em;
+    background-color: lightslategrey;
+    color: white;
+    text-align: center;
+}
+.form__text{
+    text-align: center;
+    color: darkorchid;
+    border-radius: 10px;
+}
+.form__buttons{
+    margin: 30px auto 100px;
+    text-align: center;
+    background-color: rgba(213,147,225,.2);
+    border-radius: 32px;
+}
+.form__input{
+    margin-top: 30px;
+    background: transparent;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 18px;
+    color: white;
+}
+.form__btn{
+    color: navy;
+   cursor: pointer;
+    padding: 0.5em;
+    margin: 10px auto 30px ;
+    background-color: seashell;
+}
+
+/*Footer*/
+.footer{
+    background-color: rgba(115,175,235,.5);
+}
+ul.footer__first, ul.footer__second {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+.footer__first li a, .footer__second li a{
+    color: rgb(32,26,191);
+}
+.footer_third img.phone{
+    border-radius: 30px;
+    width: 84px;
+    height: 168px;
+}
+li.footer_icon0{
+    text-align: center;
+    font-size: 1.4em;
+}
+li.footer_icon1{
+   background-color: rgba(32,26,191,.6);
+    border-radius: 14px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+}
+li.footer_icon1 a{
+    color: white;
+}
+h3.footer__title{
+    text-align: center;
+}
+li.icon2__item{
+    border-radius: 27px;
+    padding: 10px 20px;
+    background-color: white;
+    margin-right: 15px;
+}
+.icon2__item a{
+    font-size: 2em;
+    color: rgba(32,26,191,.6)
+}
+
+/*media inquiry*/
+
+@media screen and (max-width: 576px){
+    li.header__main__menu a{
+        color: #FB6806;
+        font-size: 1em;
+    }
+    h1.header__text, p.header__text{
+        color: #FB6806;
+        font-size: 1em;
+    }
+    div.footer_third {
+        margin: 20px auto;
+    }
+    .icon2__item a {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
